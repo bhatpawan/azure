@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Akzo_AdminPage::main_menu"
+             title="Akzo Admin Page"
+             module="Akzo_AdminPage"
+             sortOrder="100"
+             parent="Magento_Backend::stores"
+             action="akzo_adminpage/index/index"
+             resource="Akzo_AdminPage::main_menu"/>
+    </menu>
+</config>
